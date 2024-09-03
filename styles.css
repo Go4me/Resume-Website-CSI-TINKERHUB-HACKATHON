@@ -159,7 +159,7 @@ img{
 }
 .downloadbtn{
     display: block;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: var(--secondary-color);
     font-size: 1.6rem;
     margin-top: 1rem;
@@ -219,6 +219,15 @@ img{
 }
 .interest_item svg{
     width: 2rem;
+}
+.pic1{
+    width: 12rem;
+}
+.pic2{
+    width: 12rem;
+}
+.pic3{
+    width: 8rem;
 }
 
 /* SOCIALS */

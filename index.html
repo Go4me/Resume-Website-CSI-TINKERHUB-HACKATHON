@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles.css">
         <script src="https://unpkg.com/feather-icons"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
 
     </head>
     <body>
@@ -16,7 +17,7 @@
             <div class="profile">
                 <div class="profile_container">
                     <div class="profile_profileimage">
-                        <img src="jaison.jpg" alt="Jaison pic">
+                        <img class="imgg" src="jaison.jpg" alt="Jaison pic">
                     </div>
                     <div>
                         <h1 class="profile_name">
@@ -26,12 +27,12 @@
                         <p class="profile_title">Designer |Web Developer | Team Lead | Tech Enthusiast </p>
                         <p class="description"> a talented, ambitious and hardworking individual, with broad skills and experienced in leading developer clubs, guiding juniors and brainstorming ideas
                             to create projects </p>
-                            <a class="downloadbtn" href="./resume.pdf" download="Resume.pdf">Download Resume </a>
+                            <a class="downloadbtn" href="./Jaison-UST.pdf" download="Resume.pdf">Download Resume </a>
                             <div class="to-toggle">
-                                <img src="sun.png" alt="" id="icon">
+                                <img class="magnet" src="sun.png" alt="" id="icon">
                                 <p class="toggle-text" style="margin-left: 25px; margin-top: 20px;"> << Toggle</p>
                                 <a href="https://www.behance.net/jaisontpoulose">
-                                    <img src="behance.png" alt="" id="icon" style="margin-left: 50px">
+                                    <img class="magnet" src="behance.png" alt="" id="icon" style="margin-left: 50px">
 
                                 </a> 
                                 <p class="toggle-text" style=" margin-left: 50px ; margin-top: 20px;"> << Behance profile</p>
@@ -48,6 +49,29 @@
                 <div class="skills">
                     <h3 class="title">SKILLS</h3>
                     <ul class="skill_list description">
+                        <div class="skill">
+                           
+                            <span class="skill-name"><li>Ms Excel</li></span>
+                            <img class="skill-imag" src="msexcel.png" alt="">
+                            <div class="progress-bar" style="--progress: 80%;"></div>
+                        </div> 
+
+                        <div class="skill">
+                           
+                            <span class="skill-name"><li>PowerPoint</li></span>
+                            <img class="skill-imag" src="pp.png" alt="">
+                            <div class="progress-bar" style="--progress: 85%;"></div>
+                        </div> 
+
+                        <div class="skill">
+                           
+                            <span class="skill-name"><li>Ms Word</li></span>
+                            <img class="skill-imag" src="word.png" alt="">
+                            <div class="progress-bar" style="--progress: 70%;"></div>
+                        </div> 
+                        
+
+
                         <div class="skill">
                            
                             <span class="skill-name"><li>Figma & UI/UX</li></span>
@@ -105,7 +129,7 @@
                         <div class="skill">
                             <span class="skill-name"><li>Python</li></span>
                             <img class="skill-imag" src="python.png" alt="">
-                            <div class="progress-bar" style="--progress: 60%;"></div>
+                            <div class="progress-bar" style="--progress: 80%;"></div>
                         </div>
  
                     </ul>
@@ -114,16 +138,7 @@
 
                 <div class="projects">
                     <h3 class="title">PROJECTS</h3>
-                    <div class="ref_item">
-                        <h4 class="ref_name">Website UI Redesign Know-Up</h4>
-                        <p class="description">
-                            Recreated the UI of the website of the online placement and exams preparation company Know-Up.
-• Enhanced the visibility and aesthetics to pull the crowd.
-• Designed the about section, FAQ and taglines to enhance the trustability and visual appearance.
 
-                        </p>
-                        <a href="https://www.behance.net/gallery/189306475/Know-Up-Website" id="linking">Click here</a>
-                    </div>
 
                     <div class="ref_item">
                         <h4 class="ref_name">Food Order Recommendation System</h4>
@@ -138,29 +153,33 @@ analyzes user data and previous orders to provide personalized food and restaura
                     </div>
 
                     <div class="ref_item">
-                        <h4 class="ref_name">Personal Portfolio</h4>
+                        <h4 class="ref_name">Grocery Store Management System</h4>
                         <p class="description">
-                            A website that describes me, showcase my achievements, the service I
-provide and the skills I excel. Keywords: HTML, CSS, JavaScript
+                            
+                            Built grocery store management system using HTML, CSS, JavaScript and Bootstrap as a frontend, django as
+                            backend, MySQL as database and Github as a version control system to maintain the codebase<br>
+                            • Helped XYZ grocers automate their order and inventory management processes<br>
+                            • Used Django as a web based framework to serve HTTP requests coming from the frontend
+                            
 
                         </p>
-                        <a href="https://go4me.github.io/Jaisonportfolio/" id="linking">Click here</a>
+                        
                     </div>
 
                     <div class="ref_item">
-                        <h4 class="ref_name">UI of a Productivity Tracker website </h4>
+                        <h4 class="ref_name">Design and Optimization of Gain and Reduction of SAR using AMC Backend CPW antenna for 2.4GHz
+                        </h4>
                         <p class="description">
-                            Using Figma, I created an illustration for a productivity monitoring website's landing page.
+                            Developed a novel design for CPW antenna along with AMC unit to improve the gain and to reduce the SAR
+                            using CST Studio and HFSS
                         </p>
-                        <a href="https://www.figma.com/file/AVbRkOhWbIB4nOecQWOvzB/ProdUI?type=design&node-id=0%3A1&mode=design&t=TXAOjaObb1PGgM6M-1" id="linking">Click here</a>
                     </div>
 
                     <div class="ref_item">
-                        <h4 class="ref_name">Food Order Recommendation System</h4>
+                        <h4 class="ref_name">Object identification and following Bot using HUSKY Lens</h4>
                         <p class="description">
-                            Food order recommendation website that uses machine learning
-algorithm to recommend the food and restaurants to the user based on
-his previous orders. Keywords: React Js, Bootstrap, CSS, HTML, Figma, Documentation.
+                            Developed a prototype of the object following bot using using Arduino, Husky lens and servo motors.
+
                         </p>
                         <a href="https://github.com/Go4me/Food-Order-Recommendation-System-Suyati-Project" id="linking">Click here</a>
                     </div>
@@ -172,6 +191,17 @@ his previous orders. Keywords: React Js, Bootstrap, CSS, HTML, Figma, Documentat
 assistant integrated to it. Detects the damage force and checks whether the rider is safe or not. Keywords: Arduino, SIM800L Module, FSR
                         </p>
                         <a href="https://github.com/Go4me/ArduinoProjectSmartHelmet" id="linking">Click here</a>
+                    </div>
+
+                    <div class="ref_item">
+                        <h4 class="ref_name">Website UI Redesign Know-Up</h4>
+                        <p class="description">
+                            Recreated the UI of the website of the online placement and exams preparation company Know-Up.
+• Enhanced the visibility and aesthetics to pull the crowd.
+• Designed the about section, FAQ and taglines to enhance the trustability and visual appearance.
+
+                        </p>
+                        <a href="https://www.behance.net/gallery/189306475/Know-Up-Website" id="linking">Click here</a>
                     </div>
 
 
@@ -249,13 +279,22 @@ assistant integrated to it. Detects the damage force and checks whether the ride
                     <h3 class="title">WORK EXPERIENCE</h3>
                     <div class="exp_item">
                         <img class="skill-imag-1" src="./images/download.png" alt="">
+                        <H4 class="item_title">Sunlux Technovations</H4>
+                        
+                        <p class="item_pretitle">February 2024-April 2024</p>
+                        
+                        <p class="item_subtitle">Embedded Developer Intern</p>
+                        <p class="description">I contributed to the creation of the initial UI, hardware development, and schematics for a significant national project using DesignSpark PCB. My work involved embedded systems development using STM32Cube IDE and Arduino IDE, where I programmed in embedded C. Additionally, I engaged in circuit design and analysis using KiCad, and managed Bill of Materials (BOM) creation with MS Excel. For communication and data transmission, I utilized gateways, SPI, and I2C protocols, along with LoRa technology.</p>
+                    </div>
+
+                    <div class="exp_item">
+                        <img class="skill-imag-1" src="./images/download.png" alt="">
                         <H4 class="item_title">SUYATI TECHNOLOGIES</H4>
                         
                         <p class="item_pretitle">February 2023-August 2023</p>
                         
                         <p class="item_subtitle">Front-End Developer Intern</p>
-                        <p class="description">Created a website based on food order recommendation
-                            system. Handled the UI/UX part as well the frontend dockerization. Skills executed: React Js, Bootstrap, CSS, HTML, Figma.</p>
+                        <p class="description">I spearheaded the development of the UI/UX and frontend for a machine learning-driven Food Order Recommendation System, which personalized food and restaurant suggestions based on user data and order history. Utilizing technologies such as React.js, Bootstrap, CSS, HTML, and Figma, I enhanced the system's user interface and optimized code performance, leading to a 30% improvement in client satisfaction. As the lead for front-end development, I effectively collaborated with the team to boost user engagement and ensure the project's success.</p>
                     </div>
 
                     <div class="exp_item">
@@ -264,7 +303,7 @@ assistant integrated to it. Detects the damage force and checks whether the ride
                         <p class="item_pretitle">August 2022-August2023</p>
                         
                         <p class="item_subtitle">Campus Lead</p>
-                        <p class="description">Managed and promoted the Google products such as Kotlin,Dart,Flutter and so oon to students,by conducting various workshops.
+                        <p class="description">I conducted 12 technical workshops and served as a key speaker for events related to web development, where I significantly improved my public speaking, leadership, communication, and foundational programming skills.
                             Skills Executed: Technical skills,Leadership skills,Management skills.
                         </p>
                         <p class="item_subtitle">Graphics Designer</p>
@@ -276,9 +315,9 @@ assistant integrated to it. Detects the damage force and checks whether the ride
                         <img class="skill-imag-1" src="./images/ieee.png" alt="">
                         <H4 class="item_title">IEEE</H4>
                         <p class="item_pretitle">2020-2021</p>
-                        <p class="item_subtitle">Graphics Designer</p>
-                        <p class="description">created posters for various IEEE SB ASIET by considering the
-                            IEEE standards. Used Adobe Illustrator.
+                        <p class="item_subtitle">Graphics Designer,Technical Team Lead, Web Master</p>
+                        <p class="description">I illustrated event posters and visuals for IEEE SB ASIET, where I also led the technical team for the Student Skill Enhancement Program (SSEP). In this role, I effectively utilized tools and skills such as Adobe Illustrator, management, technical expertise, and communication to drive the program's success.
+                            Skills Executed: Designing skills,Leadership skills,Management skills.
                             
                         </p>
                     </div>
@@ -286,6 +325,23 @@ assistant integrated to it. Detects the damage force and checks whether the ride
 
                 <div class="achievements">
                     <h3 class="title">ACHIEVEMENTS</h3>
+                    <div class="award_items">
+                        <h4 class="item_title">Paper Published</h4>
+                        <p class="item_pretitle">08/2024 - 08/2024</p>
+                        
+                        <p class="description">Published Paper in Journal of RF and Microwave Communication Technologies: Optimized
+                        SIW 5G Array Antennas for Mobile Communication Systems</p>
+                    </div>
+
+                    <div class="award_items">
+                        <h4 class="item_title">Paper Presented</h4>
+                        <p class="item_pretitle">08/2024 - 08/2024</p>
+                        
+                        <p class="description">Presented Paper in ICAAI5GIOT , University of Malta collaborated with DSIR, Govt. of India:
+                            Bandwidth Optimization Techniques for Microstrip Patch Antenna</p>
+                    </div>
+
+
                     <div class="award_items">
                         <h4 class="item_title">WebCraft- Runner up</h4>
                         <p class="item_pretitle">05/2023 - 06/2023</p>
@@ -360,15 +416,25 @@ assistant integrated to it. Detects the damage force and checks whether the ride
                 </div>
                 <div class="interest">
                     <h3 class="title">INTERESTS</h3>
+
+                   
+                    
                     <div class="interest_items">
+
                         <div class="interest_item">
-                            <i data-feather="map"></i>
-                            <span>Travel</span>
+                            <img class="pic1" src="yt.png" alt="">
+                            <!-- <span>YouTube Content Creation</span> -->
+    
+                        </div>
+                        <div class="interest_item">
+                            <img class="pic2" src="bike.png" alt="">
+                            <!-- <span>Travel</span> -->
                         </div>
                     
+                    
                     <div class="interest_item">
-                        <i data-feather="film"></i>
-                        <span>Movie</span>
+                        <img class="pic3" src="movie.png" alt="">
+                        <!-- <span>Movie</span> -->
 
                     </div>
 
@@ -411,6 +477,19 @@ assistant integrated to it. Detects the damage force and checks whether the ride
                 </div>
             </div>  
         </div>  
+         <!-- Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js is needed for 3d Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+
+
+    
+        <script src="script.js"></script>
         <script>
             feather.replace();
             var icon = document.getElementById("icon");
